@@ -1,0 +1,23 @@
+{
+  "name": "spendtracker2018_2",
+  "version": "1.0.0",
+  "description": "Spend Tracking application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kicklive/spendtracker2018.git"
+  },
+  "author": "Darryl Payton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kicklive/spendtracker2018/issues"
+  },
+  "homepage": "https://github.com/kicklive/spendtracker2018#readme",
+  "dependencies": {
+    "expresss": "0.0.0",
+    "jade": "^1.11.0"
+  }
+}
