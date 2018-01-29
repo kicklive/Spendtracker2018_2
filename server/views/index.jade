@@ -1,0 +1,12 @@
+extends ../includes/layout
+
+block main-content
+    section.content
+        //-AngularJS
+        div(ng-view) 
+
+        //-Mongo data
+        h2=mongoMessage
+
+        //-Node
+        h2 NodeJS
