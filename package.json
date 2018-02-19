@@ -6,9 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "engines":{
-    "node":"6.9.x",
-    "npm":"3.10.x"
+  "engines": {
+    "node": "6.9.x",
+    "npm": "3.10.x"
   },
   "repository": {
     "type": "git",
@@ -21,9 +21,11 @@
   },
   "homepage": "https://github.com/kicklive/spendtracker2018#readme",
   "dependencies": {
+    "angularjs-datepicker": "^2.1.23",
     "body-parser": "^1.18.2",
     "express": "^4.16.2",
     "jade": "^1.11.0",
+    "jquery-ui": "^1.12.1",
     "mongoose": "^5.0.1",
     "morgan": "^1.9.0",
     "stylus": "^0.54.5"

@@ -1,0 +1,8 @@
+.container
+    form.form-horizontal(name=newBudget)
+        fieldset
+            ledgend New newBudget
+                .form-group
+                    label.col-sm-2.control-label(for="startdate") Budget Begin
+                    .col-sm-6
+                        input.form-control(name="startdate", type="text",placeholder="Budget Start Date" ng-model="date" datepkr="")
